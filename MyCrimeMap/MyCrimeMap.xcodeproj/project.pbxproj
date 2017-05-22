@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0CCD451ED0FC31006756DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CCD441ED0FC31006756DE /* AppDelegate.swift */; };
+		FD0CCD471ED0FC31006756DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CCD461ED0FC31006756DE /* ViewController.swift */; };
+		FD0CCD4A1ED0FC31006756DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0CCD481ED0FC31006756DE /* Main.storyboard */; };
+		FD0CCD4C1ED0FC31006756DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0CCD4B1ED0FC31006756DE /* Assets.xcassets */; };
+		FD0CCD4F1ED0FC31006756DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0CCD4D1ED0FC31006756DE /* LaunchScreen.storyboard */; };
+		FD0CCD571ED10AA8006756DE /* DataPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CCD561ED10AA8006756DE /* DataPoints.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD0CCD411ED0FC31006756DE /* MyCrimeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCrimeMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0CCD441ED0FC31006756DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0CCD461ED0FC31006756DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD0CCD491ED0FC31006756DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0CCD4B1ED0FC31006756DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0CCD4E1ED0FC31006756DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD0CCD501ED0FC31006756DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0CCD561ED10AA8006756DE /* DataPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPoints.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0CCD3E1ED0FC31006756DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0CCD381ED0FC31006756DE = {
+			isa = PBXGroup;
+			children = (
+				FD0CCD431ED0FC31006756DE /* MyCrimeMap */,
+				FD0CCD421ED0FC31006756DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0CCD421ED0FC31006756DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0CCD411ED0FC31006756DE /* MyCrimeMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0CCD431ED0FC31006756DE /* MyCrimeMap */ = {
+			isa = PBXGroup;
+			children = (
+				FD0CCD441ED0FC31006756DE /* AppDelegate.swift */,
+				FD0CCD461ED0FC31006756DE /* ViewController.swift */,
+				FD0CCD481ED0FC31006756DE /* Main.storyboard */,
+				FD0CCD4B1ED0FC31006756DE /* Assets.xcassets */,
+				FD0CCD4D1ED0FC31006756DE /* LaunchScreen.storyboard */,
+				FD0CCD501ED0FC31006756DE /* Info.plist */,
+				FD0CCD561ED10AA8006756DE /* DataPoints.swift */,
+			);
+			path = MyCrimeMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0CCD401ED0FC31006756DE /* MyCrimeMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0CCD531ED0FC31006756DE /* Build configuration list for PBXNativeTarget "MyCrimeMap" */;
+			buildPhases = (
+				FD0CCD3D1ED0FC31006756DE /* Sources */,
+				FD0CCD3E1ED0FC31006756DE /* Frameworks */,
+				FD0CCD3F1ED0FC31006756DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCrimeMap;
+			productName = MyCrimeMap;
+			productReference = FD0CCD411ED0FC31006756DE /* MyCrimeMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0CCD391ED0FC31006756DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Trevor Nelson";
+				TargetAttributes = {
+					FD0CCD401ED0FC31006756DE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD0CCD3C1ED0FC31006756DE /* Build configuration list for PBXProject "MyCrimeMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0CCD381ED0FC31006756DE;
+			productRefGroup = FD0CCD421ED0FC31006756DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0CCD401ED0FC31006756DE /* MyCrimeMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0CCD3F1ED0FC31006756DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0CCD4F1ED0FC31006756DE /* LaunchScreen.storyboard in Resources */,
+				FD0CCD4C1ED0FC31006756DE /* Assets.xcassets in Resources */,
+				FD0CCD4A1ED0FC31006756DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0CCD3D1ED0FC31006756DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0CCD471ED0FC31006756DE /* ViewController.swift in Sources */,
+				FD0CCD571ED10AA8006756DE /* DataPoints.swift in Sources */,
+				FD0CCD451ED0FC31006756DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD0CCD481ED0FC31006756DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0CCD491ED0FC31006756DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD0CCD4D1ED0FC31006756DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0CCD4E1ED0FC31006756DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0CCD511ED0FC31006756DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD0CCD521ED0FC31006756DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0CCD541ED0FC31006756DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCrimeMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorsAppDevelopment.MyCrimeMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD0CCD551ED0FC31006756DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCrimeMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorsAppDevelopment.MyCrimeMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0CCD3C1ED0FC31006756DE /* Build configuration list for PBXProject "MyCrimeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0CCD511ED0FC31006756DE /* Debug */,
+				FD0CCD521ED0FC31006756DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0CCD531ED0FC31006756DE /* Build configuration list for PBXNativeTarget "MyCrimeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0CCD541ED0FC31006756DE /* Debug */,
+				FD0CCD551ED0FC31006756DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD0CCD391ED0FC31006756DE /* Project object */;
+}
